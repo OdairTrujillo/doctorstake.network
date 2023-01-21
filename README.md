@@ -12,7 +12,7 @@ Igualmente, si necesitas los archivos del sitio de forma standalone, sólo tiene
 
 Si deseas contribuir con nuestro sitio, algo que valoramos muchísimo, solo tienes que hacer un fork de este repositorio para que lo tengas en tu cuenta de GitHub, luego lo clonas en tu equipo local, creas una nueva rama con un nombre alusivo al cambio que desees hacer, como por ejemplo _"cambio-color"_ o _"nuevo-boton"_, haces push a tu repositorio y esto te permitirá crear el `pull-request` con el que tu cambio será analizado por el equipo e incorporado a la página principal después de discutirlo contigo. 
 
-Puedes buscar ayuda en el grupo de télegram [aquí](https://t.me/doctorstake_group), allí estaremos gustosos de ayudarte.
+Puedes buscar ayuda en el grupo de télegram [aquí](https://t.me/DoctorstakeGroup), allí estaremos gustosos de ayudarte.
 
 
 
