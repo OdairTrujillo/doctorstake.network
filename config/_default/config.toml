@@ -1,7 +1,7 @@
 baseURL = "https://doctorstake.network/"
 languageCode = "es-co"
 title = "Doctor Stake"
-theme = "spoperator"
+theme = "sposite"
 publishDir = "public_html"
 
 disableKinds = ["taxonomy", "taxonomyTerm", "RSS", "sitemap", "robotsTXT"]
@@ -12,7 +12,7 @@ buildFuture = true # Por defecto hugo no construye contenido con fecha futura.
   identifier = 'chat'
   name = 'Telegram'
   pre = "<i class='fa-brands fa-telegram'></i>"
-  url ='https://t.me/doctorstake_group'
+  url ='https://t.me/DoctorstakeGroup'
   weight = -110
 [[menu.main]]
   identifier = 'meets'
