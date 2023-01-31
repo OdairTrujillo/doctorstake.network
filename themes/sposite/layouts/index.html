@@ -1,7 +1,10 @@
 {{ define "main" }}
-    <main>
-	<div class="greetings">
-	    <p>Hola, gracias por participar del proyecto</p>
-	</div>
-    </main>
+<main>
+   <div class="sections">
+      {{ $paginator := .Paginate (where .Data.Pages "Section" "sections") }}
+      {{ range $paginator.Pages }}
+      {{ .Render "summary" }}
+      {{ end }}
+   </div>
+</main>
 {{ end }}

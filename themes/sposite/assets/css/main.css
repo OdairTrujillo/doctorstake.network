@@ -1,14 +1,12 @@
-/* ESTILOS CSS PARA EL SITIO WEB DE SALAMANDRADEVS */
+/* MAIN CSS STYLE FOR SOPSITE HUGO THEME */
 
 /* Copyright GNU LGPL. 
-   Puedes copiar, modificar y usar este software bajo los términos de la licencia general de uso público reducida de GNU.
-   Encontrarás una copia de la licencia aquí https://www.gnu.org/licenses/lgpl-3.0.html */
+   You can copy, modify or use this software under the definitios of the GNU Lesser General Public License. You can find a copy here https://www.gnu.org/licenses/lgpl-3.0.html */
 
-/* Metodología mobile first o pantallas pequeñas primero.
-   Primero se escriben las reglas para el ancho de portview
-   más pequeño a considerar */
+/* Mobile first metodoly. Here you will see the css for small screens, then the media queries for the big ones*/
 
-/* VARIABLES Y REGLAS GENERALES */
+/* VARIABLES AND GENERAL RULES */
+
 @charset "UTF-8";
 
 * {
@@ -59,7 +57,7 @@ html {
   background-color: var(--bgColorDark);
 }
 
-/* REGLAS DEL HOME */
+/* HOME RULES */
 
 body {
   display: grid;
@@ -127,6 +125,15 @@ main hr {
   margin: 1rem;
 }
 
+.sections section {
+   width: 20rem;
+   height: 20rem;
+   border: 1px solid;
+   border-radius: 0.6rem;
+   padding: 1rem;
+   margin: 1rem;
+}
+
 .content table {
   padding-top: 2rem;
   margin: 0 auto;
@@ -162,7 +169,7 @@ footer {
 
   body {
     grid-template-columns: 11rem 1fr;
-    grid-template-areas: /* Tabletas se muestra el aside */
+    grid-template-areas: /* aside is shown on tablets */
       "navbar navbar"
       "aside main"
       "footer footer";
